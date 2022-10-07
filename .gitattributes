@@ -1,20 +1,26 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# make all files detectable
+# make all files detectable except symbols.txt
 * linguist-detectable
+.config/rofi/symbols.txt -linguist-detectable
 
 # define languages
-*.conf linguist-language=INI
-*.rasi linguist-language=CSS
 .config/bspwm/autostart linguist-language=Shell
 .config/bspwm/bspwmrc linguist-language=Shell
 .config/dunst/dunstrc linguist-language=INI
+.config/neofetch/config.conf linguist-language=Shell
+.config/paru/paru.conf linguist-language=INI
 .config/picom/opacity-rules linguist-language=Shell
+.config/picom/picom.conf linguist-language=INI
 .config/polybar/colors linguist-language=INI
 .config/polybar/config linguist-language=INI
 .config/polybar/package-updates linguist-language=Shell
+.config/rofi/themes/rounded-nord-dark.rasi linguist-language=CSS
+.config/rofi/config.rasi linguist-language=CSS
+.config/shareS/shareS.conf linguist-language=INI
 .config/betterlockscreenrc linguist-language=INI
+.config/Trolltech.conf linguist-language=INI
 .local/bin/* linguist-language=Shell
 .xprofile linguist-language=Shell
 .zshrc linguist-language=Shell
