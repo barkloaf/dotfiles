@@ -17,7 +17,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <th>Dependents</th>
         </tr>
     </thead>
-    <tbody style="text-align: left;">
+    <tbody>
         <tr>
             <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/autostart"><code>.config/bspwm/autostart</code></a></th>
             <th>
@@ -338,7 +338,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </th>
         </tr>
         <tr>
-            <th><code>polybar-spotify-module</code></th>
+            <th><code>polybar-spotify-module</code> (enable the <code>spotify-listener.service</code> systemd <b>user</b> unit)</th>
             <th>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
@@ -376,7 +376,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
-                    <a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a>
+                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
@@ -490,7 +490,9 @@ All packages are in the official Arch repositories or the Arch User Repository a
 All packages are in the official Arch repositories or the Arch User Repository as named unless otherwise linked
 * `baobab`: GTK-based directory tree analyzer
 * `code`: Open source build of Visual Studio Code (vscode) editor
-    * https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code: Nord theme for Visual Studio Code
+    * `code-features`: Unblocks some features in `code`
+    * `code-marketplace`: Enables the marketplace in `code`
+        * https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code: Nord theme for Visual Studio Code
 * `gtk2fontsel`: GTK-based font preview tool
 * `lightdm`: Display manager. I don't actually <i>recommend</i> `lightdm` because it breaks often, but unfortunately it is very customizable
     * `accountsservice`: D-Bus interface for user account query and manipulation. Can be used by `lightdm` to gather information such as profile picture, etc.

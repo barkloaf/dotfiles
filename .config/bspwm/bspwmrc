@@ -49,7 +49,7 @@ eval $(
         --experimental-backends \
         --xrender-sync-fence \
         --config $XDG_CONFIG_HOME/picom/picom.conf \
-        "${parameters[@]}" \
+        "${parameters[@]}"
 ) &
 
 # start user applications

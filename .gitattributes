@@ -1,2 +1,20 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# make all files detectable
+* linguist-detectable
+
+# define languages
+*.conf linguist-language=INI
+*.rasi linguist-language=CSS
+.config/bspwm/autostart linguist-language=Shell
+.config/bspwm/bspwmrc linguist-language=Shell
+.config/dunst/dunstrc linguist-language=INI
+.config/picom/opacity-rules linguist-language=Shell
+.config/polybar/colors linguist-language=INI
+.config/polybar/config linguist-language=INI
+.config/polybar/package-updates linguist-language=Shell
+.config/betterlockscreenrc linguist-language=INI
+.local/bin/* linguist-language=Shell
+.xprofile linguist-language=Shell
+.zshrc linguist-language=Shell
