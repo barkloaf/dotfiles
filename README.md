@@ -34,7 +34,7 @@
         </tr>
         <tr>
             <td>Application launcher</td>
-            <td><a href="https://github.com/davatorium/rofi">rofi</a><td>
+            <td><a href="https://github.com/davatorium/rofi">rofi</a></td>
         </tr>
         <tr>
             <td>Notification daemon</td>
