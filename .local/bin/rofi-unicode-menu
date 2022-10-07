@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+rofi -dmenu -input $XDG_CONFIG_HOME/rofi/symbols.txt | read choice && xdotool type "${choice:0:1}"

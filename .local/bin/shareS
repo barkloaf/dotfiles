@@ -1,0 +1,37 @@
+#!/usr/bin/env zsh
+
+# script used to upload flameshot screenshots to a ShareS server (https://github.com/TannerReynolds/ShareX-Upload-Server)
+
+source <(grep = $XDG_CONFIG_HOME/shareS/shareS.conf)
+
+mkdir -p $screenshot_folder
+target="$screenshot_folder/$(date +$date_str).png"
+
+flameshot gui -r > $target
+
+if [[ $(file --mime-type -b $target) != "image/png" ]]; then
+	rm $target
+	notify-send "Screenshot aborted" -a "Flameshot" && exit 1
+fi
+
+choice=$(rofi -dmenu -input $urls | read selection && echo ${selection})
+
+if [[ $choice = "Abort" || $choice = "" ]]; then
+	rm $target
+	notify-send "Screenshot aborted" -a "Flameshot" && exit 1
+fi
+
+xclip -selection clipboard -t image/png -i $target
+
+message="Copied to clipboard"
+
+if [[ $choice = "Copy to clipboard" ]]; then
+	message+="."
+else
+	output=$(curl POST -F "fdata=@"$target -F "key=$key" -v "$api_url" 2>/dev/null)
+	link="$choice/${output##*/}"
+	message+=": $link"
+	echo -n $link | xclip -sel c
+fi
+
+notify-send "$message" -a "Flameshot" -i $target

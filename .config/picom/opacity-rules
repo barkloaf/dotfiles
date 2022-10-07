@@ -1,0 +1,14 @@
+# picom opacity rules
+#
+# format as you would in picom.conf but with whitespace-delimited strings
+# (with quotation marks) instead of comma-delimited ones as per bash array syntax
+# 
+# ex:
+# opacity_rule=(
+#    "100:class_g = 'flameshot'"
+#    "100:class_g = 'foobar' && !focused"
+# )
+
+opacity_rule=(
+
+)

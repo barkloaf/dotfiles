@@ -1,0 +1,613 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+include-file = $XDG_CONFIG_HOME/polybar/colors
+
+;==========================================================
+
+[bar/main]
+monitor = eDP1
+
+bottom = true
+fixed-center = true
+
+width = 98%
+height = 20
+offset-x = 1%
+offset-y = 6
+;radius = 6.0
+
+background = ${colors.BACKGROUND}
+foreground = ${colors.FOREGROUND}
+
+line-size = 2
+line-color = ${colors.BLUE}
+
+border-size = 4
+border-color = ${colors.BACKGROUND}
+
+;padding-left = 0
+;padding-right = 2
+
+padding = 4
+module-margin-left = 2
+module-margin-right = 2
+
+font-0 = "Ubuntu:size=10;3"
+font-1 = "Ubuntu Nerd Font:size=12;3"
+font-2 = "UbuntuMono Nerd Font:size=10;3"
+
+modules-left = bspwm bspmode
+modules-center = previous playpause next spotify
+modules-right = package-updates pulseaudio backlight-acpi battery wlan date
+
+tray-position = none
+;tray-padding = 2
+;tray-background = #0063ff
+
+separator =
+spacing = 0
+
+dim-value = 1
+
+wm-name = bspwm
+wm-restack = bspwm
+
+override-redirect = false
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+enable-ipc = true
+
+;==========================================================
+
+[module/xwindow]
+type = internal/xwindow
+; Available tags:
+;   <label> (default)
+format = <label>
+format-prefix = " "
+format-prefix-font = 2
+format-prefix-foreground = ${color.BLUE}
+format-background = ${color.BGL}
+
+; Available tokens:
+;   %title%
+; Default: %title%
+label = %title%
+label-maxlen = 25
+
+; Used instead of label when there is no window title
+; Available tokens:
+;   None
+label-empty = Desktop
+;label-empty-foreground = ${color.BGA}
+
+;==========================================================
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
+;==========================================================
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+
+;==========================================================
+
+[module/bspwm]
+type = internal/bspwm
+
+pin-workspaces = true
+inline-mode = false
+
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+
+fuzzy-match = true
+
+format = <label-state>
+
+;label-monitor = %name%
+
+label-focused = %index%
+label-focused-foreground = ${colors.BACKGROUND}
+label-focused-background = ${colors.BLUE}
+;label-focused-underline = ${colors.RED}
+label-focused-padding = 1
+
+label-occupied = %index%
+label-occupied-foreground = ${colors.BACKGROUND}
+label-occupied-background = ${colors.GREEN}
+;label-occupied-underline = ${colors.GREEN}
+label-occupied-padding = 1
+
+label-urgent = %index%
+label-urgent-foreground = ${colors.BACKGROUND}
+label-urgent-background = ${colors.RED}
+;label-urgent-underline = ${colors.RED}
+label-urgent-padding = 1
+
+label-empty = %index%
+label-empty-foreground = ${colors.FOREGROUND}
+label-empty-padding = 1
+
+; Separator in between workspaces
+label-separator = " "
+label-separator-padding = 0
+;label-separator-foreground = ${colors.YELLOW}
+
+;==========================================================
+
+[module/bspmode]
+type = internal/bspwm
+
+format = <label-mode>
+format-background = ${colors.YELLOW}
+format-foreground = ${colors.BACKGROUND}
+format-padding = 1
+
+label-monocle = "Monocle"
+label-tiled = "Tiled"
+
+label-floating = ", Float"
+label-pseudotiled = ", Pseudo"
+label-fullscreen = ", Full"
+
+label-locked = " Locked"
+label-sticky = " Sticky"
+label-private = " Private"
+
+;==========================================================
+
+[module/mpd]
+type = internal/mpd
+
+;;host = 127.0.0.1
+;;port = 6600
+;;password = mysecretpassword
+
+interval = 2
+
+format-online = <label-song> <icon-prev> <toggle> <icon-next>
+format-online-prefix = " "
+format-online-prefix-font = 1
+format-online-prefix-foreground = ${colors.GREEN}
+
+format-playing = ${self.format-online}
+format-paused = <label-song> <toggle>
+
+format-offline = <label-offline>
+label-offline = "Offline"
+
+label-song =  "%title% | %artist%"
+label-song-maxlen = 40
+label-song-ellipsis = true
+
+icon-play = 
+icon-play-font = 2
+icon-play-foreground = ${colors.GREEN}
+icon-pause = 
+icon-pause-font = 2
+icon-pause-foreground = ${colors.YELLOW}
+icon-stop = 
+icon-stop-foreground = ${colors.RED}
+icon-prev = 玲
+icon-prev-font = 2
+icon-prev-foreground = ${colors.CYAN}
+icon-next = 怜
+icon-next-font = 2
+icon-next-foreground = ${colors.CYAN}
+
+;==========================================================
+
+[module/xbacklight]
+type = internal/xbacklight
+
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+
+format = <ramp> <label>
+
+label = %percentage%%
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 
+ramp-6 = 
+ramp-7 = 
+ramp-8 = 
+ramp-9 = 
+ramp-font = 2
+ramp-foreground = ${colors.MAGENTA}
+
+;==========================================================
+
+[module/backlight-acpi]
+inherit = module/xbacklight
+type = internal/backlight
+card = intel_backlight
+
+;==========================================================
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #f90000
+label = %percentage:2%%
+
+;==========================================================
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #4bffdc
+label = %percentage_used%%
+
+;==========================================================
+
+[module/wlan]
+type = internal/network
+interface = wlan0
+interval = 1.0
+
+;;ping-interval = 3
+;;udspeed-minwidth = 5
+
+accumulate-stats = true
+unknown-as-up = true
+
+format-connected = <ramp-signal> <label-connected>
+
+format-disconnected = <label-disconnected>
+format-disconnected-prefix = "睊 "
+format-disconnected-prefix-font = 2
+format-disconnected-prefix-foreground = ${colors.RED}
+
+;; label-connected = "%{A1:nmd &:}%essid%%{A}"
+;; label-disconnected = "%{A1:nmd &:}Disconnected%{A}"
+
+label-connected = "%{A1:nmd &:}"
+label-disconnected = "%{A1:nmd &:}"
+
+ramp-signal-0 = 直
+ramp-signal-1 = 直
+ramp-signal-2 = 直
+ramp-signal-3 = 直
+ramp-signal-4 = 直
+ramp-signal-font = 2
+ramp-signal-foreground = ${colors.CYAN}
+
+;==========================================================
+
+[module/eth]
+type = internal/network
+interface = tunl0
+interval = 3.0
+
+format-connected-underline = #55aa55
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+label-connected = %local_ip%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+;==========================================================
+
+[module/date]
+type = internal/date
+interval = 1
+
+time = %a, %d-%b-%y %H:%M:%S
+time-alt = %A, %d %B %Y
+
+format = <label>
+format-prefix = " "
+format-prefix-font = 2
+format-prefix-foreground = ${colors.BLUE}
+
+label = %time%
+
+;==========================================================
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+
+; Sink to be used, if it exists (find using `pacmd list-sinks`, name field)
+; If not, uses default sink
+sink = alsa_output.pci-0000_12_00.3.analog-stereo
+
+; Use PA_VOLUME_UI_MAX (~153%) if true, or PA_VOLUME_NORM (100%) if false
+; Default: true
+use-ui-max = false
+
+; Interval for volume increase/decrease (in percent points)
+; Default: 5
+interval = 5
+
+format-volume = <ramp-volume> <label-volume>
+
+format-muted = <label-muted>
+format-muted-prefix = 婢
+format-muted-prefix-font = 2
+format-muted-prefix-foreground = ${colors.RED}
+
+label-volume = %percentage%%
+;; label-muted = " Muted"
+label-muted = " %percentage%%"
+label-muted-foreground = #757575
+
+ramp-volume-0 = 奄
+ramp-volume-1 = 奄
+ramp-volume-2 = 奄
+ramp-volume-3 = 奔
+ramp-volume-4 = 奔
+ramp-volume-5 = 奔
+ramp-volume-6 = 墳
+ramp-volume-7 = 墳
+ramp-volume-8 = 墳
+ramp-volume-9 = 墳
+ramp-volume-font = 2
+ramp-volume-foreground = ${colors.BLUE}
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
+
+;==========================================================
+
+[module/alsa]
+type = internal/alsa
+
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL
+label-volume-foreground = ${root.foreground}
+
+format-muted-prefix = " "
+format-muted-foreground = ${colors.foreground-alt}
+label-muted = sound muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+;==========================================================
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ADP1
+full-at = 98
+
+poll-interval = 2
+time-format = %H:%M
+
+format-charging = <animation-charging> <label-charging>
+format-charging-prefix = 
+
+format-discharging = <ramp-capacity> <label-discharging>
+
+format-full = <label-full>
+format-full-prefix = " "
+format-full-prefix-font = 2
+format-full-prefix-foreground = ${colors.RED}
+
+label-charging = "  %percentage%%"
+label-discharging = "  %percentage%%"
+label-full = "  %percentage%%"
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-font = 2
+ramp-capacity-foreground = ${colors.YELLOW}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-font = 2
+animation-charging-foreground = ${colors.GREEN}
+animation-charging-framerate = 750
+
+;==========================================================
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-underline = #f50a4d
+format-warn = <ramp> <label-warn>
+format-warn-underline = ${self.format-underline}
+
+label = %temperature-c%
+label-warn = %temperature-c%
+label-warn-foreground = ${colors.secondary}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-foreground = ${colors.foreground-alt}
+
+;==========================================================
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = ${colors.secondary}
+label-close =  cancel
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = reboot
+menu-1-1-exec = sudo reboot
+
+menu-2-0 = power off
+menu-2-0-exec = sudo poweroff
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0
+
+;==========================================================
+
+[module/package-updates]
+type = custom/script
+
+format = <label>
+format-prefix = " "
+format-prefix-font = 2
+format-prefix-foreground = ${colors.YELLOW}
+
+exec = $XDG_CONFIG_HOME/polybar/package-updates
+interval = 600
+
+label = %output%
+
+;==========================================================
+
+[module/previous]
+type = custom/ipc
+;format-font = 2
+; Default
+hook-0 = echo ""
+; When spotify active
+hook-1 = echo "玲"
+click-left = "spotifyctl -q previous"
+
+
+[module/next]
+type = custom/ipc
+;format-font = 2
+; Default
+hook-0 = echo ""
+; When spotify active
+hook-1 = echo "怜"
+click-left = "spotifyctl -q next"
+
+
+[module/playpause]
+type = custom/ipc
+;format-font = 2
+; Default
+hook-0 = echo ""
+; Playing
+hook-1 = echo ""
+; Paused
+hook-2 = echo ""
+click-left = "spotifyctl -q playpause"
+
+
+[module/spotify]
+type = custom/ipc
+; Default
+hook-0 = echo ""
+; Playing/paused show song name and artist
+hook-1 = spotifyctl -q status --format '%artist% - %title%'
+
+;==========================================================
+
+[settings]
+throttle-output = 5
+throttle-output-for = 10
+
+screenchange-reload = false
+
+compositing-background = source
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over
+pseudo-transparency = false
+
+;==========================================================
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+; vim:ft=dosini

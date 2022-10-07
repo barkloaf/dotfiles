@@ -1,0 +1,3 @@
+#!/bin/sh
+
+# script to start desired applications after bspwmrc runs

@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+mv $HOME/.histfile /tmp/.histfile_old
+strings /tmp/.histfile_old > $HOME/.histfile
+fc -R $HOME/.histfile
+
+rm /tmp/.histfile_old

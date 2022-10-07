@@ -1,0 +1,56 @@
+#!/bin/sh
+
+# establish workspaces
+bspc monitor -d I II III IV V VI VII VIII IX
+
+# numeric settings
+bspc config border_width     2
+bspc config window_gap       10
+bspc config split_ratio      0.50
+
+# boolean settings
+bspc config borderless_monocle    true
+bspc config gapless_monocle       true
+bspc config paddingless_monocle   true
+bspc config single_monocle        false
+bspc config focus_follows_pointer true
+
+# color settings
+bspc config focused_border_color  "#81A1C1"
+bspc config normal_border_color   "#2E3440"
+bspc config active_border_color   "#B48EAD"
+bspc config presel_feedback_color "#A3BE8C" 
+
+# rules
+bspc rule -a flameshot focus=off follow=off
+bspc rule -a rofi state=floating focus=on follow=on
+
+# set background
+feh --bg-fill $HOME/background.png
+
+# pass vars to dbus and start gnome keyring
+dbus-update-activation-environment --all &
+gnome-keyring-daemon --start --components=secrets &
+
+# start post-wm environment apps
+polybar main &
+sxhkd &
+dunst &
+eval $(
+    source $XDG_CONFIG_HOME/picom/opacity-rules
+
+    unset parameters
+
+    for ((i=0; i<${#opacity_rule[@]}; i++)); do
+        parameters+=("--opacity-rule" "${opacity_rule[$i]}")
+    done
+
+    picom \
+        --experimental-backends \
+        --xrender-sync-fence \
+        --config $XDG_CONFIG_HOME/picom/picom.conf \
+        "${parameters[@]}" \
+) &
+
+# start user applications
+$XDG_CONFIG_HOME/bspwm/autostart
