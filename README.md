@@ -7,11 +7,71 @@
 </p>
 <br />
 
+## Overview
+<table>
+    <thead style="text-align: center;">
+        <tr>
+            <th>Component</th>
+            <th>Software</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Display server</td>
+            <td><a href="https://x.org">Xorg</a></td>
+        </tr>
+        <tr>
+            <td>Window manager</td>
+            <td><a href="https://github.com/baskerville/bspwm">bspwm</a></td>
+        </tr>
+        <tr>
+            <td>Compositor</td>
+            <td><a href="https://github.com/jonaburg/picom">picom-jonaburg</a></td>
+        </tr>
+        <tr>
+            <td>Bar</td>
+            <td><a href="https://github.com/polybar/polybar">polybar</a></td>
+        </tr>
+        <tr>
+            <td>Application launcher</td>
+            <td><a href="https://github.com/davatorium/rofi">rofi</a><td>
+        </tr>
+        <tr>
+            <td>Notification daemon</td>
+            <td><a href="https://github.com/dunst-project/dunst">dunst</a></td>
+        </tr>
+        <tr>
+            <td>GTK and icons theme</td>
+            <td><a href="https://github.com/archcraft-os">Archcraft Nordic</a></td>
+        </tr>
+        <tr>
+            <td>Font</td>
+            <td><a href="https://design.ubuntu.com/font/">Ubuntu</a></td>
+        </tr>
+        <tr>
+            <td>Cursor</td>
+            <td><a href="https://kver.wordpress.com/2015/01/09/curses-i-mean-cursors/">Breeze snow</a></td>
+        </tr>
+        <tr>
+            <td>Screenshot tool</td>
+            <td><a href="https://github.com/flameshot-org/flameshot">Flameshot</a> (uploaded to a <a href="https://github.com/TannerReynolds/ShareX-Upload-Server">ShareS</a> server)</td>
+        </tr>
+        <tr>
+            <td>Terminal</td>
+            <td><a href="https://github.com/kovidgoyal/kitty">kitty</a></td>
+        </tr>
+        <tr>
+            <td>Shell</td>
+            <td><a href="https://www.zsh.org/">Z shell</a></td>
+        </tr>
+    </tbody>
+</table>
+
 ## Mentioned packages and files
 All packages are in the official Arch repositories or the Arch User Repository as named unless otherwise linked
 <br />
 <table>
-    <thead style="text-align: center;">
+    <thead>
         <tr>
             <th>Package / File</th>
             <th>Dependents</th>
@@ -19,359 +79,359 @@ All packages are in the official Arch repositories or the Arch User Repository a
     </thead>
     <tbody>
         <tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/autostart"><code>.config/bspwm/autostart</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/autostart"><code>.config/bspwm/autostart</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/picom/opacity-rules"><code>.config/picom/opacity-rules</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/picom/opacity-rules"><code>.config/picom/opacity-rules</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/colors"><code>.config/polybar/colors</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/colors"><code>.config/polybar/colors</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/package-updates"><code>.config/polybar/package-updates</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/package-updates"><code>.config/polybar/package-updates</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/themes/rounded-nord-dark.rasi"><code>.config/rofi/themes/rounded-nord-dark.rasi</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/themes/rounded-nord-dark.rasi"><code>.config/rofi/themes/rounded-nord-dark.rasi</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/symbols.txt"><code>.config/rofi/symbols.txt</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/symbols.txt"><code>.config/rofi/symbols.txt</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/shareS/shareS.conf"><code>.config/shareS/shareS.conf</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/shareS/shareS.conf"><code>.config/shareS/shareS.conf</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/shareS/urls"><code>.config/shareS/urls</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/shareS/urls"><code>.config/shareS/urls</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/winmask"><code>.local/bin/winmask</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/winmask"><code>.local/bin/winmask</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         </tr>
-            <th><a href="https://github.com/barkloaf/dotfiles/blob/main/background.png"><code>background.png</code></a></th>
-            <th>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/background.png"><code>background.png</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><a href="https://github.com/archcraft-os/packages/blob/main/x86_64/"><code>archcraft-gtk-theme-nordic</code></a></th>
-            <th>
+            <td><a href="https://github.com/archcraft-os/packages/blob/main/x86_64/"><code>archcraft-gtk-theme-nordic</code></a></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code><a href="https://github.com/archcraft-os/packages/blob/main/x86_64/">archcraft-icons-nordic</a</code></th>
-            <th>
+            <td><code><a href="https://github.com/archcraft-os/packages/blob/main/x86_64/">archcraft-icons-nordic</a</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>betterlockscreen</code></th>
-            <th>
+            <td><code>betterlockscreen</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>breeze-snow-cursor-theme</code></th>
-            <th>
+            <td><code>breeze-snow-cursor-theme</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>bspwm</code></th>
-            <th>
+            <td><code>bspwm</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/winmask"><code>.local/bin/winmask</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>dunst</code></th>
-            <th>
+            <td><code>dunst</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/dunst/dunstrc"><code>.config/dunst/dunstrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>easyeffects</code></th>
-            <th>
+            <td><code>easyeffects</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>feh</code></th>
-            <th>
+            <td><code>feh</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>flameshot</code></th>
-            <th>
+            <td><code>flameshot</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>gnome-keyring</code></th>
-            <th>
+            <td><code>gnome-keyring</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>gtk2</code></th>
-            <th>
+            <td><code>gtk2</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>gtk3</code></th>
-            <th>
+            <td><code>gtk3</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>kitty</code></th>
-            <th>
+            <td><code>kitty</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/kitty/kitty.conf"><code>.config/kitty/kitty.conf</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.zshrc"><code>.zshrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>ksuperkey</code></th>
-            <th>
+            <td><code>ksuperkey</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>neofetch</code></th>
-            <th>
+            <td><code>neofetch</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/neofetch/config.conf"><code>.config/neofetch/config.conf</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>nerd-fonts-ubuntu</code></th>
-            <th>
+            <td><code>nerd-fonts-ubuntu</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>networkmanager</code> (or, more preferrably, <code>networkmanager-iwd</code>)</th>
-            <th>
+            <td><code>networkmanager</code> (or, more preferrably, <code>networkmanager-iwd</code>)</td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>network-manager-applet</code></th>
-            <th>
+            <td><code>network-manager-applet</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>numlockx</code></th>
-            <th>
+            <td><code>numlockx</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>paru</code></th>
-            <th>
+            <td><code>paru</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/paru/paru.conf"><code>.config/paru/paru.conf</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/package-updates"><code>.config/polybar/package-updates</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>picom-jonaburg-git</code></th>
-            <th>
+            <td><code>picom-jonaburg-git</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/picom/picom.conf"><code>.config/picom/picom.conf</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>pipewire-pulse</code> (enable the <code>pipewire-pulse.service</code> systemd <b>user</b> unit)</th>
-            <th>
+            <td><code>pipewire-pulse</code> (enable the <code>pipewire-pulse.service</code> systemd <b>user</b> unit)</td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>polkit-gnome</code></th>
-            <th>
+            <td><code>polkit-gnome</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>polybar</code></th>
-            <th>
+            <td><code>polybar</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>polybar-spotify-module</code> (enable the <code>spotify-listener.service</code> systemd <b>user</b> unit)</th>
-            <th>
+            <td><code>polybar-spotify-module</code> (enable the <code>spotify-listener.service</code> systemd <b>user</b> unit)</td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>qt4</code> (not required or recommended to install unless necesary, but dependents are recommended regardless)</th>
-            <th>
+            <td><code>qt4</code> (not required or recommended to install unless necesary, but dependents are recommended regardless)</td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/Trolltech.conf"><code>.config/Trolltech.conf</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>qt5-styleplugins</code></th>
-            <th>
+            <td><code>qt5-styleplugins</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>qt6gtk2</code></th>
-            <th>
+            <td><code>qt6gtk2</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>rofi</code></th>
-            <th>
+            <td><code>rofi</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
@@ -381,36 +441,36 @@ All packages are in the official Arch repositories or the Arch User Repository a
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>rofimoji</code></th>
-            <th>
+            <td><code>rofimoji</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>spotify</code></th>
-            <th>
+            <td><code>spotify</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>sxhkd</code></th>
-            <th>
+            <td><code>sxhkd</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>ttf-ubuntu-font-family</code></th>
-            <th>
+            <td><code>ttf-ubuntu-font-family</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/dunst/dunstrc"><code>.config/dunst/dunstrc</code></a></li>
@@ -421,66 +481,66 @@ All packages are in the official Arch repositories or the Arch User Repository a
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>xclip</code></th>
-            <th>
+            <td><code>xclip</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>xdg-desktop-portal</code></th>
-            <th>
+            <td><code>xdg-desktop-portal</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>xdg-desktop-portal-kde</code></th>
-            <th>
+            <td><code>xdg-desktop-portal-kde</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>xdg-desktop-portal-gtk</code></th>
-            <th>
+            <td><code>xdg-desktop-portal-gtk</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>xdotool</code></th>
-            <th>
+            <td><code>xdotool</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>zsh</code></th>
-            <th>
+            <td><code>zsh</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/histfix"><code>.local/bin/histfix</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.zshrc"><code>.zshrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th><code>zsh-syntax-highlighting</code></th>
-            <th>
+            <td><code>zsh-syntax-highlighting</code></td>
+            <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.zshrc"><code>.zshrc</code></a></li>
                 </ul>
-            </th>
+            </td>
         </tr>
     </tbody>
 </table>
