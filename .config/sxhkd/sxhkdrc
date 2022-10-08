@@ -125,6 +125,10 @@ super + shift + y
 super + shift + g
 	bspc node -s biggest.window
 
+# rotate windows
+super + shift + {r,e}
+	bspc node @/ -C {forward,backward}
+
 #############
 # preselect #
 #############
