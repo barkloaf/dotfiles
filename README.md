@@ -1,15 +1,17 @@
+<p align="center">
+    <img src="https://i.barkloaf.com/DaESwow0t.png">
+</p>
+
 # <p align="center">barkloaf's dotfiles</p>
 
 <p align="center">
-    <img src="https://i.barkloaf.com/DaESwow0t.png">
-    <br />
     <span>my personal setup for arch linux featuring the <a href="https://nordtheme.com">nord color scheme</a>, bspwm, picom, polybar, and more!</span>
 </p>
 <br />
 
 ## Overview
 <table>
-    <thead style="text-align: center;">
+    <thead">
         <tr>
             <th>Component</th>
             <th>Software</th>
@@ -549,6 +551,8 @@ All packages are in the official Arch repositories or the Arch User Repository a
 ## Further recommendations
 All packages are in the official Arch repositories or the Arch User Repository as named unless otherwise linked
 * `baobab`: GTK-based directory tree analyzer
+* `blueman`: GTK-based Bluetooth manager
+    * `bluez-tools`: CLI tools for Bluetooth management
 * `code`: Open source build of Visual Studio Code (vscode) editor
     * `code-features`: Unblocks some features in `code`
     * `code-marketplace`: Enables the marketplace in `code`
