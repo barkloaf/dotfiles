@@ -185,16 +185,15 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/background.png"><code>background.png</code></a></td>
+            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/share/background.png"><code>.local/share/background.png</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><a href="https://github.com/archcraft-os/packages/blob/main/x86_64/"><code>archcraft-gtk-theme-nordic</code></a></td>
+            <td><a href="https://github.com/archcraft-os/pkgs/tree/main/x86_64"><code>archcraft-gtk-theme-nordic</code></a></td>
             <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
@@ -202,7 +201,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         <tr>
-            <td><code><a href="https://github.com/archcraft-os/packages/blob/main/x86_64/">archcraft-icons-nordic</a</code></td>
+            <td><code><a href="https://github.com/archcraft-os/pkgs/tree/main/x86_64">archcraft-icons-nordic</a</code></td>
             <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
@@ -557,11 +556,13 @@ All packages are in the official Arch repositories or the Arch User Repository a
     * `code-features`: Unblocks some features in `code`
     * `code-marketplace`: Enables the marketplace in `code`
         * https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code: Nord theme for Visual Studio Code
+* `gnome-calculator`: GTK-based calculator
 * `gtk2fontsel`: GTK-based font preview tool
 * `lightdm`: Display manager. I don't actually <i>recommend</i> `lightdm` because it breaks often, but unfortunately it is very customizable
     * `accountsservice`: D-Bus interface for user account query and manipulation. Can be used by `lightdm` to gather information such as profile picture, etc.
-    * `lightdm-webkit2-greeter`: Webkit2-based greeter for `lightdm`
+    * `lightdm-webkit2-greeter`: Webkit2-based greeter for `lightdm` that is unfortunately broken as of recently (oct 2022) *even with* a downgraded `webkit2gtk` package. Other web-based greeters also do not seem to be working
         * https://github.com/AlphaNecron/lightdm-gab-nord: Nord theme for `lightdm-webkit2-greeter`
+            * Potentially working on my own fork as of currently, but it's not usable due to web greeters being broken completely right now
 * `ly`: Alternate, TUI-based display manager. Cool if you can get it to work (I didn't) and pair it with `mkinitcpio-colors-git`
 * `lxappearance-gtk3`: GTK-based theme, font, icon, cursor, etc. switcher
 * `mkinitcpio-colors-git`: mkinitcpio hook to set VT console colors (such as to Nord colors) during early userspace

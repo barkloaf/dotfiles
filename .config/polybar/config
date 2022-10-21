@@ -21,7 +21,7 @@ include-file = $XDG_CONFIG_HOME/polybar/colors
 ;==========================================================
 
 [bar/main]
-monitor = eDP1
+;monitor = can specify monitor here
 
 bottom = true
 fixed-center = true

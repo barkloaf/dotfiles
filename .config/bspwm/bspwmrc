@@ -26,7 +26,7 @@ bspc rule -a flameshot focus=off follow=off
 bspc rule -a rofi state=floating focus=on follow=on
 
 # set background
-feh --bg-fill $HOME/background.png
+feh --bg-fill $XDG_DATA_HOME/background.png
 
 # pass vars to dbus and start gnome keyring
 dbus-update-activation-environment --all &
