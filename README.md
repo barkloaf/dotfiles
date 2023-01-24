@@ -477,7 +477,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         <tr>
-            <td><code>	ttf-ubuntu-mono-nerd</code></td>
+            <td><code>ttf-ubuntu-mono-nerd</code></td>
             <td>
                 <ul>
                     <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
