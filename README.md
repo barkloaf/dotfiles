@@ -323,14 +323,6 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         <tr>
-            <td><code>nerd-fonts-ubuntu</code></td>
-            <td>
-                <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
             <td><code>networkmanager</code> (or, more preferrably, <code>networkmanager-iwd</code>)</td>
             <td>
                 <ul>
@@ -485,6 +477,22 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         <tr>
+            <td><code>	ttf-ubuntu-mono-nerd</code></td>
+            <td>
+                <ul>
+                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><code>ttf-ubuntu-nerd</code></td>
+            <td>
+                <ul>
+                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
             <td><code>xclip</code></td>
             <td>
                 <ul>
@@ -560,9 +568,9 @@ All packages are in the official Arch repositories or the Arch User Repository a
 * `gtk2fontsel`: GTK-based font preview tool
 * `lightdm`: Display manager. I don't actually <i>recommend</i> `lightdm` because it breaks often, but unfortunately it is very customizable
     * `accountsservice`: D-Bus interface for user account query and manipulation. Can be used by `lightdm` to gather information such as profile picture, etc.
-    * `lightdm-webkit2-greeter`: Webkit2-based greeter for `lightdm` that is unfortunately broken as of recently (oct 2022) *even with* a downgraded `webkit2gtk` package. Other web-based greeters also do not seem to be working
+    * `lightdm-webkit2-greeter`: Webkit2-based greeter for `lightdm`
         * https://github.com/AlphaNecron/lightdm-gab-nord: Nord theme for `lightdm-webkit2-greeter`
-            * Potentially working on my own fork as of currently, but it's not usable due to web greeters being broken completely right now
+            * Potentially working on my own fork
 * `ly`: Alternate, TUI-based display manager. Cool if you can get it to work (I didn't) and pair it with `mkinitcpio-colors-git`
 * `lxappearance-gtk3`: GTK-based theme, font, icon, cursor, etc. switcher
 * `mkinitcpio-colors-git`: mkinitcpio hook to set VT console colors (such as to Nord colors) during early userspace
