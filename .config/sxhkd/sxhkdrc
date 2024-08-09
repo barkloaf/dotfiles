@@ -13,10 +13,6 @@ Print
 # lock screen
 ctrl + alt + {_,shift + }l
 	betterlockscreen {-l, --suspend}
-	
-# refresh picom
-ctrl + alt + p
-	touch -m $XDG_CONFIG_HOME/picom/picom.conf
 
 # make sxhkd reload its configuration files:
 super + ctrl + alt + Escape

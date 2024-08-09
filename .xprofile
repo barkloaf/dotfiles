@@ -10,6 +10,7 @@ export XDG_STATE_HOME=$HOME/.local/state
 # set style environment vars
 export GTK_USE_PORTAL=1
 export QT_QPA_PLATFORMTHEME=gtk2
+export GTK_THEME=Nordic
 xsetroot -cursor_name left_ptr
 dconf write /org/gtk/settings/file-chooser/startup-mode \"cwd\"
 

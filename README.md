@@ -28,7 +28,7 @@
         </tr>
         <tr>
             <td>Compositor</td>
-            <td><a href="https://github.com/jonaburg/picom">picom-jonaburg</a></td>
+            <td><a href="https://github.com/yshui/picom">picom</a></td>
         </tr>
         <tr>
             <td>Bar</td>
@@ -43,8 +43,16 @@
             <td><a href="https://github.com/dunst-project/dunst">dunst</a></td>
         </tr>
         <tr>
-            <td>GTK and icons theme</td>
+            <td>Lock screen</td>
+            <td><a href="https://github.com/betterlockscreen/betterlockscreen">betterlockscreen</a></td>
+        </tr>
+        <tr>
+            <td>GTK 2/3 and icons theme</td>
             <td><a href="https://github.com/archcraft-os">Archcraft Nordic</a></td>
+        </tr>
+        <tr>
+            <td>GTK 4 theme</td>
+            <td><a href="https://www.gnome-look.org/p/1267246/">Nordic</a></td>
         </tr>
         <tr>
             <td>Font</td>
@@ -81,122 +89,123 @@ All packages are in the official Arch repositories or the Arch User Repository a
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/autostart"><code>.config/bspwm/autostart</code></a></td>
+            <td><a href=".config/bspwm/autostart"><code>.config/bspwm/autostart</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/picom/opacity-rules"><code>.config/picom/opacity-rules</code></a></td>
+            <td><a href=".config/picom/opacity-rules"><code>.config/picom/opacity-rules</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/colors"><code>.config/polybar/colors</code></a></td>
+            <td><a href=".config/polybar/colors"><code>.config/polybar/colors</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/package-updates"><code>.config/polybar/package-updates</code></a></td>
+            <td><a href=".config/polybar/package-updates"><code>.config/polybar/package-updates</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/themes/rounded-nord-dark.rasi"><code>.config/rofi/themes/rounded-nord-dark.rasi</code></a></td>
+            <td><a href=".config/rofi/themes/rounded-nord-dark.rasi"><code>.config/rofi/themes/rounded-nord-dark.rasi</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
+                    <li><a href=".config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/symbols.txt"><code>.config/rofi/symbols.txt</code></a></td>
+            <td><a href=".config/rofi/symbols.txt"><code>.config/rofi/symbols.txt</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
+                    <li><a href=".local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/shareS/shareS.conf"><code>.config/shareS/shareS.conf</code></a></td>
+            <td><a href=".config/shareS/shareS.conf"><code>.config/shareS/shareS.conf</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/shareS/urls"><code>.config/shareS/urls</code></a></td>
+            <td><a href=".config/shareS/urls"><code>.config/shareS/urls</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></td>
+            <td><a href=".local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></td>
+            <td><a href=".local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></td>
+            <td><a href=".local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></td>
+            <td><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/winmask"><code>.local/bin/winmask</code></a></td>
+            <td><a href=".local/bin/winmask"><code>.local/bin/winmask</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/share/background.png"><code>.local/share/background.png</code></a></td>
+            <td><a href=".local/share/background.png"><code>.local/share/background.png</code></a></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><a href="https://github.com/archcraft-os/pkgs/tree/main/x86_64"><code>archcraft-gtk-theme-nordic</code></a></td>
+            <td><a href="https://github.com/archcraft-os/pkgs/tree/main/x86_64"><code>archcraft-gtk-theme-nordic</code></a> (add <a href="https://github.com/EliverLara/Nordic/tree/master/gtk-4.0">EliverLara/Nordic/gtk-4.0</a> to <code>/usr/share/themes/Nordic</code> for GTK 4 support)</td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
+                    <li><a href=".config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -204,7 +213,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code><a href="https://github.com/archcraft-os/pkgs/tree/main/x86_64">archcraft-icons-nordic</a</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
+                    <li><a href=".config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -212,8 +221,8 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>betterlockscreen</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -221,7 +230,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>breeze-snow-cursor-theme</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
+                    <li><a href=".config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -229,10 +238,10 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>bspwm</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/winmask"><code>.local/bin/winmask</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".local/bin/winmask"><code>.local/bin/winmask</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -240,8 +249,8 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>dunst</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/dunst/dunstrc"><code>.config/dunst/dunstrc</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/dunst/dunstrc"><code>.config/dunst/dunstrc</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -249,7 +258,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>easyeffects</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -257,8 +266,8 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>feh</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -266,8 +275,8 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>flameshot</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -275,7 +284,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>gnome-keyring</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -283,7 +292,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>gtk2</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -291,18 +300,35 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>gtk3</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
         <tr>
+            <td><code>gtk4</code></td>
+            <td>
+                <ul>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+        <tr>
+            <td><code>hyfetch</code></td>
+            <td>
+                <ul>
+                    <li><a href=".config/hyfetch.json"><code>.config/hyfetch.json</code></a></li>
+                    <li><a href=".config/neofetch/config.conf"><code>.config/neofetch/config.conf</code></a></li>
+                </ul>
+            </td>
+        </tr>
             <td><code>kitty</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/kitty/kitty.conf"><code>.config/kitty/kitty.conf</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.zshrc"><code>.zshrc</code></a></li>
+                    <li><a href=".config/kitty/kitty.conf"><code>.config/kitty/kitty.conf</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".zshrc"><code>.zshrc</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -310,15 +336,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>ksuperkey</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><code>neofetch</code></td>
-            <td>
-                <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/neofetch/config.conf"><code>.config/neofetch/config.conf</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -326,8 +344,8 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>networkmanager</code> (or, more preferrably, <code>networkmanager-iwd</code>)</td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -335,7 +353,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>network-manager-applet</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -343,7 +361,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>numlockx</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -351,17 +369,17 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>paru</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/paru/paru.conf"><code>.config/paru/paru.conf</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/package-updates"><code>.config/polybar/package-updates</code></a></li>
+                    <li><a href=".config/paru/paru.conf"><code>.config/paru/paru.conf</code></a></li>
+                    <li><a href=".config/polybar/package-updates"><code>.config/polybar/package-updates</code></a></li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><code>picom-jonaburg-git</code></td>
+            <td><code>picom</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/picom/picom.conf"><code>.config/picom/picom.conf</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/picom/picom.conf"><code>.config/picom/picom.conf</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -369,7 +387,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>pipewire-pulse</code> (enable the <code>pipewire-pulse.service</code> systemd <b>user</b> unit)</td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -377,7 +395,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>polkit-gnome</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -385,8 +403,8 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>polybar</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -394,7 +412,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>polybar-spotify-module</code> (enable the <code>spotify-listener.service</code> systemd <b>user</b> unit)</td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -402,7 +420,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>qt4</code> (not required or recommended to install unless necesary, but dependents are recommended regardless)</td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/Trolltech.conf"><code>.config/Trolltech.conf</code></a></li>
+                    <li><a href=".config/Trolltech.conf"><code>.config/Trolltech.conf</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -410,7 +428,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>qt5-styleplugins</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -418,7 +436,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>qt6gtk2</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -426,13 +444,13 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>rofi</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></li>
+                    <li><a href=".local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
+                    <li><a href=".local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
+                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -440,7 +458,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>rofimoji</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -448,7 +466,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>spotify</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -456,8 +474,8 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>sxhkd</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
+                    <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -465,14 +483,14 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>ttf-ubuntu-font-family</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/dunst/dunstrc"><code>.config/dunst/dunstrc</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/kitty/kitty.conf"><code>.config/kitty/kitty.conf</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/neofetch/config.conf"><code>.config/neofetch/config.conf</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
+                    <li><a href=".config/betterlockscreenrc"><code>.config/betterlockscreenrc</code></a></li>
+                    <li><a href=".config/dunst/dunstrc"><code>.config/dunst/dunstrc</code></a></li>
+                    <li><a href=".config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
+                    <li><a href=".config/kitty/kitty.conf"><code>.config/kitty/kitty.conf</code></a></li>
+                    <li><a href=".config/neofetch/config.conf"><code>.config/neofetch/config.conf</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
+                    <li><a href=".local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -480,7 +498,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>ttf-ubuntu-mono-nerd</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -488,7 +506,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>ttf-ubuntu-nerd</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.config/polybar/config"><code>.config/polybar/config</code></a></li>
+                    <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -496,7 +514,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>xclip</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -504,7 +522,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>xdg-desktop-portal</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -512,7 +530,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>xdg-desktop-portal-kde</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -520,7 +538,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>xdg-desktop-portal-gtk</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -528,7 +546,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>xdotool</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
+                    <li><a href=".local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -536,10 +554,10 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>zsh</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/histfix"><code>.local/bin/histfix</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.local/bin/shareS"><code>.local/bin/shareS</code></a></li>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.zshrc"><code>.zshrc</code></a></li>
+                    <li><a href=".local/bin/histfix"><code>.local/bin/histfix</code></a></li>
+                    <li><a href=".local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
+                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".zshrc"><code>.zshrc</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -547,13 +565,17 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>zsh-syntax-highlighting</code></td>
             <td>
                 <ul>
-                    <li><a href="https://github.com/barkloaf/dotfiles/blob/main/.zshrc"><code>.zshrc</code></a></li>
+                    <li><a href=".zshrc"><code>.zshrc</code></a></li>
                 </ul>
             </td>
         </tr>
     </tbody>
 </table>
 <br />
+
+## Current issues
+* `picom` does not yet have animation support, and the forks that have it are buggy/missing other features. I was previously using `picom-jonaburg`, but this fork is no longer being maintained and has bugs. [animation support to `picom` is coming in the next update](https://github.com/yshui/picom/issues/1121)
+* `polybar` will sometimes display `%output% %output% %output% %output%` in place of the Spotify status when Spotify is not running. this is a bug that [will be fixed in the next update](https://github.com/polybar/polybar/issues/3131#issuecomment-2262541743)
 
 ## Further recommendations
 All packages are in the official Arch repositories or the Arch User Repository as named unless otherwise linked
@@ -566,12 +588,10 @@ All packages are in the official Arch repositories or the Arch User Repository a
         * https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code: Nord theme for Visual Studio Code
 * `gnome-calculator`: GTK-based calculator
 * `gtk2fontsel`: GTK-based font preview tool
-* `lightdm`: Display manager. I don't actually <i>recommend</i> `lightdm` because it breaks often, but unfortunately it is very customizable
+* `lightdm`: Display manager. Warning: can break sometimes
     * `accountsservice`: D-Bus interface for user account query and manipulation. Can be used by `lightdm` to gather information such as profile picture, etc.
-    * `lightdm-webkit2-greeter`: Webkit2-based greeter for `lightdm`
-        * https://github.com/AlphaNecron/lightdm-gab-nord: Nord theme for `lightdm-webkit2-greeter`
-            * Potentially working on my own fork
-* `ly`: Alternate, TUI-based display manager. Cool if you can get it to work (I didn't) and pair it with `mkinitcpio-colors-git`
+    * `nody-greeter`: LightDM Greeter made with Electron.js and node-gtk that allows to create web based themes with HTMl, CSS and JavaScript
+        * https://gist.github.com/barkloaf/49523e586fa917c0593ceef5579338c6: Nord theme color patch for the default gruvbox theme
 * `lxappearance-gtk3`: GTK-based theme, font, icon, cursor, etc. switcher
 * `mkinitcpio-colors-git`: mkinitcpio hook to set VT console colors (such as to Nord colors) during early userspace
 * `nm-connection-editor`: GTK-based NetworkManager connection editor
