@@ -574,8 +574,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
 <br />
 
 ## Current issues
-* `picom` does not yet have animation support, and the forks that have it are buggy/missing other features. I was previously using `picom-jonaburg`, but this fork is no longer being maintained and has bugs. [animation support to `picom` is coming in the next update](https://github.com/yshui/picom/issues/1121)
-* `polybar` will sometimes display `%output% %output% %output% %output%` in place of the Spotify status when Spotify is not running. this is a bug that [will be fixed in the next update](https://github.com/polybar/polybar/issues/3131#issuecomment-2262541743)
+None (for now)!
 
 ## Further recommendations
 All packages are in the official Arch repositories or the Arch User Repository as named unless otherwise linked

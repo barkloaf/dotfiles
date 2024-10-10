@@ -130,6 +130,7 @@ for key     kcap   seq        mode   widget (
 # aliases
 alias ls="ls --color"
 alias ssh="kitty +kitten ssh"
+alias neofetch="neowofetch"
 
 # syntax highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
