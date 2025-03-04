@@ -152,6 +152,14 @@ All packages are in the official Arch repositories or the Arch User Repository a
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td><a href=".local/bin/histfix"><code>.local/bin/histfix</code></a></td>
+            <td>
+                <ul>
+                    <li><a href=".zprofile"><code>.zprofile</code></a></li>
+                </ul>
+            </td>
+        </tr>
         </tr>
             <td><a href=".local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></td>
             <td>
@@ -162,14 +170,6 @@ All packages are in the official Arch repositories or the Arch User Repository a
         </tr>
         </tr>
             <td><a href=".local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></td>
-            <td>
-                <ul>
-                    <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
-                </ul>
-            </td>
-        </tr>
-        </tr>
-            <td><a href=".local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></td>
             <td>
                 <ul>
                     <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
@@ -255,14 +255,6 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         <tr>
-            <td><code>easyeffects</code></td>
-            <td>
-                <ul>
-                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
             <td><code>feh</code></td>
             <td>
                 <ul>
@@ -344,16 +336,16 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>networkmanager</code> (or, more preferrably, <code>networkmanager-iwd</code>)</td>
             <td>
                 <ul>
+                    <li><a href=".config/networkmanager-dmenu/config.ini"><code>.config/networkmanager-dmenu/config.ini</code></a></li>
                     <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
-                    <li><a href=".local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><code>network-manager-applet</code></td>
+            <td><code>networkmanager-dmenu-git</code></td>
             <td>
                 <ul>
-                    <li><a href=".xprofile"><code>.xprofile</code></a></li>
+                    <li><a href=".config/networkmanager-dmenu/config.ini"><code>.config/networkmanager-dmenu/config.ini</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -445,11 +437,11 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td>
                 <ul>
                     <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
+                    <li><a href=".config/networkmanager-dmenu/config.ini"><code>.config/networkmanager-dmenu/config.ini</code></a></li>
                     <li><a href=".config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
                     <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                     <li><a href=".local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></li>
                     <li><a href=".local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
-                    <li><a href=".local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
                     <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
                 </ul>
             </td>
@@ -490,7 +482,6 @@ All packages are in the official Arch repositories or the Arch User Repository a
                     <li><a href=".config/neofetch/config.conf"><code>.config/neofetch/config.conf</code></a></li>
                     <li><a href=".config/polybar/config"><code>.config/polybar/config</code></a></li>
                     <li><a href=".config/rofi/config.rasi"><code>.config/rofi/config.rasi</code></a></li>
-                    <li><a href=".local/bin/rofi-wifi-menu"><code>.local/bin/rofi-wifi-menu</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -597,6 +588,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
 * `noto-fonts`: Google Noto TTF fonts, provides a base font set
     * `noto-fonts-cjk`: Google Noto Chinese-Japanese-Korean TTF fonts
 * `pipewire`: Low-latency audio/video router and processor, better than PulseAudio. This package is for Pipewire clients specifically
+    * `easyeffects`: GTK-based utility which provides a large array of audio effects and filters to individual application output streams and microphone input streams
     * `pavucontrol`: GTK-based PulseAudio volume control, for use with `pipewire-pulse`
     * `pipewire-alsa`: Pipewire for ALSA clients
     * `pipewire-jack`: Pipewire for JACK clients

@@ -1,12 +1,5 @@
 #!/bin/sh
 
-# set xdg environment vars
-export PATH=$PATH:$HOME/.local/bin
-export XDG_CONFIG_HOME=$HOME/.config
-export XDG_CACHE_HOME=$HOME/.cache
-export XDG_DATA_HOME=$HOME/.local/share
-export XDG_STATE_HOME=$HOME/.local/state
-
 # set style environment vars
 export GTK_USE_PORTAL=1
 export QT_QPA_PLATFORMTHEME=gtk2
@@ -19,5 +12,3 @@ ksuperkey -e 'Super_L=Alt_L|F1' &
 ksuperkey -e 'Super_R=Alt_L|F1' &
 numlockx on &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-easyeffects --gapplication-service &
-nm-applet &

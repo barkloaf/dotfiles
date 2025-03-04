@@ -36,7 +36,7 @@ super + backslash
 	
 # wifi menu
 super + n
-	rofi-wifi-menu
+	networkmanager_dmenu
 
 # power menu
 super + Escape

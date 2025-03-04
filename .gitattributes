@@ -24,3 +24,4 @@
 .local/bin/* linguist-language=Shell
 .xprofile linguist-language=Shell
 .zshrc linguist-language=Shell
+.zprofile linguist-language=Shell
