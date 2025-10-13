@@ -18,7 +18,7 @@
 .config/polybar/package-updates linguist-language=Shell
 .config/rofi/themes/rounded-nord-dark.rasi linguist-language=CSS
 .config/rofi/config.rasi linguist-language=CSS
-.config/shareS/shareS.conf linguist-language=INI
+.config/zipline/zipline.conf linguist-language=INI
 .config/betterlockscreenrc linguist-language=INI
 .config/Trolltech.conf linguist-language=INI
 .local/bin/* linguist-language=Shell

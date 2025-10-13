@@ -8,7 +8,7 @@ super + Return
 
 # screenshotting
 Print
-	shareS
+	zipline
 
 # lock screen
 ctrl + alt + {_,shift + }l

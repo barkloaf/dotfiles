@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://i.barkloaf.com/DaESwow0t.png">
+    <img src="./screenshot.png">
 </p>
 
 # <p align="center">barkloaf's dotfiles</p>
@@ -20,7 +20,7 @@
     <tbody>
         <tr>
             <td>Display server</td>
-            <td><a href="https://x.org">Xorg</a></td>
+            <td><a href="https://x.org">X11</a></td>
         </tr>
         <tr>
             <td>Window manager</td>
@@ -47,12 +47,8 @@
             <td><a href="https://github.com/betterlockscreen/betterlockscreen">betterlockscreen</a></td>
         </tr>
         <tr>
-            <td>GTK 2/3 and icons theme</td>
+            <td>GTK and icons theme</td>
             <td><a href="https://github.com/archcraft-os">Archcraft Nordic</a></td>
-        </tr>
-        <tr>
-            <td>GTK 4 theme</td>
-            <td><a href="https://www.gnome-look.org/p/1267246/">Nordic</a></td>
         </tr>
         <tr>
             <td>Font</td>
@@ -64,7 +60,7 @@
         </tr>
         <tr>
             <td>Screenshot tool</td>
-            <td><a href="https://github.com/flameshot-org/flameshot">Flameshot</a> (uploaded to a <a href="https://github.com/TannerReynolds/ShareX-Upload-Server">ShareS</a> server)</td>
+            <td><a href="https://github.com/flameshot-org/flameshot">Flameshot</a> (uploaded to a <a href="https://zipline.diced.sh/">Zipline</a> server)</td>
         </tr>
         <tr>
             <td>Terminal</td>
@@ -201,7 +197,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         <tr>
-            <td><a href="https://github.com/archcraft-os/pkgs/tree/main/x86_64"><code>archcraft-gtk-theme-nordic</code></a> (add <a href="https://github.com/EliverLara/Nordic/tree/master/gtk-4.0">EliverLara/Nordic/gtk-4.0</a> to <code>/usr/share/themes/Nordic</code> for GTK 4 support)</td>
+            <td><a href="https://github.com/archcraft-os/pkgs/tree/main/x86_64"><code>archcraft-gtk-theme-nordic</code></a></td>
             <td>
                 <ul>
                     <li><a href=".config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>
@@ -210,7 +206,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         <tr>
-            <td><code><a href="https://github.com/archcraft-os/pkgs/tree/main/x86_64">archcraft-icons-nordic</a</code></td>
+            <td><a href="https://github.com/archcraft-os/pkgs/tree/main/x86_64"><code>archcraft-icons-nordic</code></a></td>
             <td>
                 <ul>
                     <li><a href=".config/gtk-3.0/settings.ini"><code>.config/gtk-3.0/settings.ini</code></a></li>

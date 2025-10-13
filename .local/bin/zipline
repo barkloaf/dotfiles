@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
 
-# script used to upload flameshot screenshots to a ShareS server (https://github.com/TannerReynolds/ShareX-Upload-Server)
+# script used to upload flameshot screenshots to a Zipline server (https://zipline.diced.sh/)
 
-source <(grep = $XDG_CONFIG_HOME/shareS/shareS.conf)
+source <(grep = $XDG_CONFIG_HOME/zipline/zipline.conf)
 
 mkdir -p $screenshot_folder
 target="$screenshot_folder/$(date +$date_str).png"
@@ -28,7 +28,7 @@ message="Copied to clipboard"
 if [[ $choice = "Copy to clipboard" ]]; then
 	message+="."
 else
-	output=$(curl POST -F "fdata=@"$target -F "key=$key" -v "$api_url" 2>/dev/null)
+	output=$(curl -H "authorization: $key" $api_url -F file=@$target -H "content-type: multipart/form-data" | jq -r '.files[0].url' | tr -d '\n')
 	link="$choice/${output##*/}"
 	message+=": $link"
 	echo -n $link | xclip -sel c
