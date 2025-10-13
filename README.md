@@ -133,18 +133,18 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         </tr>
-            <td><a href=".config/shareS/shareS.conf"><code>.config/shareS/shareS.conf</code></a></td>
+            <td><a href=".config/zipline/zipline.conf"><code>.config/zipline/zipline.conf</code></a></td>
             <td>
                 <ul>
-                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></li>
                 </ul>
             </td>
         </tr>
         </tr>
-            <td><a href=".config/shareS/urls"><code>.config/shareS/urls</code></a></td>
+            <td><a href=".config/zipline/urls"><code>.config/zipline/urls</code></a></td>
             <td>
                 <ul>
-                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -173,7 +173,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         </tr>
-            <td><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></td>
+            <td><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></td>
             <td>
                 <ul>
                     <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
@@ -264,7 +264,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td>
                 <ul>
                     <li><a href=".config/bspwm/bspwmrc"><code>.config/bspwm/bspwmrc</code></a></li>
-                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -308,6 +308,14 @@ All packages are in the official Arch repositories or the Arch User Repository a
                 <ul>
                     <li><a href=".config/hyfetch.json"><code>.config/hyfetch.json</code></a></li>
                     <li><a href=".config/neofetch/config.conf"><code>.config/neofetch/config.conf</code></a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><code>jq</code></td>
+            <td>
+                <ul>
+                    <li><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -438,7 +446,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
                     <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
                     <li><a href=".local/bin/rofi-power-menu"><code>.local/bin/rofi-power-menu</code></a></li>
                     <li><a href=".local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
-                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -501,7 +509,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             <td><code>xclip</code></td>
             <td>
                 <ul>
-                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></li>
                 </ul>
             </td>
         </tr>
@@ -543,7 +551,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
                 <ul>
                     <li><a href=".local/bin/histfix"><code>.local/bin/histfix</code></a></li>
                     <li><a href=".local/bin/rofi-unicode-menu"><code>.local/bin/rofi-unicode-menu</code></a></li>
-                    <li><a href=".local/bin/shareS"><code>.local/bin/shareS</code></a></li>
+                    <li><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></li>
                     <li><a href=".zshrc"><code>.zshrc</code></a></li>
                 </ul>
             </td>
