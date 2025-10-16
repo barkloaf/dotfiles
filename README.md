@@ -173,7 +173,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         </tr>
-            <td><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></td>
+            <td><a href=".local/bin/winmask"><code>.local/bin/winmask</code></a></td>
             <td>
                 <ul>
                     <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
@@ -181,7 +181,7 @@ All packages are in the official Arch repositories or the Arch User Repository a
             </td>
         </tr>
         </tr>
-            <td><a href=".local/bin/winmask"><code>.local/bin/winmask</code></a></td>
+            <td><a href=".local/bin/zipline"><code>.local/bin/zipline</code></a></td>
             <td>
                 <ul>
                     <li><a href=".config/sxhkd/sxhkdrc"><code>.config/sxhkd/sxhkdrc</code></a></li>
